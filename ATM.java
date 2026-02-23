@@ -4,8 +4,8 @@ public class ATM {
     private BankAccount account;
     private Scanner scanner;
 
-    public ATM(BankAccount account) {
-        this.account = account;
+    public ATM(BankAccount accounts) {
+        this.account = accounts;
         scanner = new Scanner(System.in);
     }
 
